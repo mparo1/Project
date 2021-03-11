@@ -1,0 +1,90 @@
+#top{
+    width: 1050px;
+    margin: 0 auto;
+    height: 40px;
+    background-color: black;
+  }
+  body{
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: tomato;
+}
+  #logo {
+    margin-top: 8px;
+    width: 70px;
+    float: left;
+    margin-right: 8px;
+  }
+  .topsection {
+    float: left;
+    border-left: 1px white solid;
+    height: 100%;
+  }
+  #signin-image {
+    width: 25px;
+    margin: 11px 15px;
+    float: left;
+    color: white;
+  }
+  .topmenu {
+    font-weight: bold;
+    font-size: 90%;
+    padding: 13px 15px 0 15px;
+    height: 27px;
+    color: white;
+  }
+  div:hover {
+      color: grey;
+  }
+  #more-arrow {
+    width: 16px;
+    margin-left: 20px;
+  }
+  #searchbox {
+    background-color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 5px;
+    margin: -4px 0 5px;
+    float: left;
+  }
+  #magnify-glass {
+    height: 27px;
+    margin-top: -4px;
+  }
+  h1 {
+      font-family: 'Times New Roman', Times, serif;
+      font-style: bold;
+      font-size: xx-large;
+     text-align: center;
+  }
+  p {
+      font-family: 'Times New Roman', Times, serif;
+      text-align: center;
+      font-style: italic;
+  }
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+table, tr, td{
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid lightgray;
+  border-collapse: collapse;
+  border-spacing: 10px;
+  width: 15% 30% 30% 10% 10%;
+  text-align: center;
+  padding: 0%;
+  font-family: 'Times New Roman', Times, serif;
+}
+h3 {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+h5, h2, h4 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
