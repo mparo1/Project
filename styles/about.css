@@ -62,12 +62,14 @@
       font-family: 'Times New Roman', Times, serif;
       text-align: center;
       font-style: italic;
+      margin-left: 120px;
+      margin-right: 120px;
   }
   img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
+    width: 40%;
 }
 table, tr, td{
   margin-left: auto;
@@ -91,4 +93,6 @@ h2 {
 h4 {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
+    margin-left: 500px;
+    margin-right: 500px;
 }

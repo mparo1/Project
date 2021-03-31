@@ -58,6 +58,11 @@
       font-size: xx-large;
      text-align: center;
   }
+  h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+   text-align: center;
+  }
   p {
       font-family: 'Times New Roman', Times, serif;
       text-align: center;
