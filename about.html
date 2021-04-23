@@ -51,7 +51,8 @@
 <h1>About</h1>
 <h2>Author</h2>
 <h4>Maddy Paro</h4>
-<img src="prop.images/IMG_9869.JPG" alt="Maddy Paro" title="Maddy Paro">
+<img id="myImg" src="prop.images/IMG_9869.JPG" alt="Maddy Paro" title="Maddy Paro"
+onmouseover="mouseOverImage()" onmouseout="mouseOutImage()"/>
 <h2>Why Broadway?</h2>
 <h4>
   I fell in love with Broadway musicals in high school after performing in our annual
@@ -64,4 +65,23 @@
   This may be the moment I completely fell in love with musicals and performing as it was my last moment on stage
   at my high school.
 </h4>
+<button id="changeColor">Click me!</button>
+<br>
+<span id="output">Learn more about broadway at <a href="https://www.broadway.com/"> Broadway.com </a></span>
 </body>
+<script>
+  document.getElementById("changeColor").onclick = function(){
+	document.getElementById("output").style.color = 'blue';
+}
+// "change the style of some element in response to the user's action"
+function mouseOverImage() {
+            document.getElementById('Image1').src = "prop.images/Me.jpg";
+        }
+ 
+        function mouseOutImage() {
+            document.getElementById('Image2').src = "prop.images/IMG_9869.JPG";
+        }
+    //"change an image with mouseover and mouseout"
+
+</script>
+</html>
